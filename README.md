@@ -3,7 +3,7 @@ A simple weather widget for [Übersicht](http://tracesof.net/uebersicht/)
 
 ## ScreenShot
 
-![Screenshot](https://github.com/85Ryan/simple-weather-widget/blob/master/screenshot.png)
+![Screenshot](https://github.com/85Ryan/simple-weather.widget/blob/master/screenshot.png)
 
 ## Setup
 1. Install [Übersicht](http://tracesof.net/uebersicht/)

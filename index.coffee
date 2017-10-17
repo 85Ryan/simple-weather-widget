@@ -29,7 +29,7 @@ afterRender: (domEl) ->
 makeCommand: (lat, lon, units, apiKey) ->
   "curl -sS 'https://api.openweathermap.org/data/2.5/weather?lat=#{lat}&lon=#{lon}&units=#{units}&cnt=10&APPID=#{apiKey}'"
 
-update: (output, domEl, unit) ->
+update: (output, domEl) ->
   data  = JSON.parse(output)
   t = data.main
   return unless t?
@@ -136,7 +136,7 @@ style: """
     top: 65px
 
     p
-      margin-top: 2px
-      margin-bottom: 2px
+      margin-top: 4px
+      margin-bottom: 4px
 	  font-family: -apple-system, PingFang SC
 """

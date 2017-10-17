@@ -13,5 +13,9 @@ A simple weather widget for [Übersicht](http://tracesof.net/uebersicht/)
 5. You can change the units format (metric or imperial) in `index.coffee`.
 6. The widget uses the new Geolocation API to find your location automatically. Requires Übersicht 0.5 or later to work.
 
+## DarkSky VERSION
+If you want to use the DarkSky API, see this:
+https://github.com/85Ryan/simple-weather-darksky.widget
+
 ## Credits
 Icons by Erik Flowers: http://erikflowers.github.io/weather-icons/
